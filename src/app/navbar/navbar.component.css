@@ -1,9 +1,10 @@
 header{
 background-color: #1fc963c6;
 padding: 15px;
+font-size: 30px;
 }
 a{
-    color: white;
+    color: rgba(81, 37, 37, 0.979);
     text-decoration: none;
     padding:  15px;
 }

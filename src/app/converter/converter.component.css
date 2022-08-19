@@ -2,13 +2,17 @@
     text-align: center;
     }
     input,select{
-        border: 1px gray solid;
-        padding: 3 px;
-        border-radius: 3px;
+        border: 2px rgb(189, 29, 29) solid;
+        padding: 10px;
+        border-radius: 6px;
         margin:  10px;
     }
     b{
-        color: 2196f3;
+        color: rgb(4, 5, 4);
         margin: 20px;
-        font-size: 26px;
+        font-size: 30px;
     }
+    label{
+        color: rgba(14, 67, 34, 0.801);
+    }
+   
