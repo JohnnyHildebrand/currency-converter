@@ -1,1 +1,10 @@
-<p>converter works!</p>
+<div class="container">
+<h1>Currency Converter </h1>
+
+<input type="number" placeholder="amount" [value] ="amount">
+<label >From:  {{from}}</label>
+<label >To:  {{to}}</label>
+<br>
+
+<b>{{amount.toFixed(2)}} {{from}} = {{convert()}}</b>
+</div>
