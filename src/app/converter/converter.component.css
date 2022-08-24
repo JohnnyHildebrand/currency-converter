@@ -1,7 +1,7 @@
 :host{
     text-align: center;
     }
-    input,select{
+    input, select{
         border: 2px rgb(189, 29, 29) solid;
         padding: 10px;
         border-radius: 6px;

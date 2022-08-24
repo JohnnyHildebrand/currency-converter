@@ -8,13 +8,13 @@ import {CurrencyExchangeService} from '../services/exchange-rates.service';
 })
 export class ConverterComponent implements OnInit {
 
-  amount = 1;
-  from = "CAD";
+  amount = 1 ;
+  from = 'CAD';
   to = 'USD';
   rates!: {[key:  string]: number}; /* Possible Issues with ! */
 
-  convert(){
-    return this.amount * this.rates[this.to];
+  convert():number {
+    return  this.amount * this.rates[this.to];
   }
 
   loadRates (){
@@ -32,5 +32,6 @@ export class ConverterComponent implements OnInit {
   ngOnInit(): void {
     this.loadRates();
   }
+  
 
 }
